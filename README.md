@@ -70,5 +70,4 @@ Este proyecto no tiene licencia.
 Si tienes preguntas o sugerencias, no dudes en contactarme a traves del formulario en la seccion de contacto del sitio web.
 
 ---
-Juan Camilo Sanchez Mendez
-Desarrollador de software en formacion.
+Juan Camilo Sanchez Mendez -- Desarrollador de software en formacion.
