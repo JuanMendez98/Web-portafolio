@@ -15,7 +15,7 @@
                 <li> <a class="header__navigation--link" href="./index.html">Inicio</a> </li>
                 <li> <a class="header__navigation--link" href="#">Sobre Mi</a> </li>
                 <li> <a class="header__navigation--link" href="./projects.html">Proyectos</a> </li>
-                <li> <a class="header__navigation--link" href="#contact">Contacto</a> </li>
+                <li> <a class="header__navigation--link" href="./contact.html">Contacto</a> </li>
             </ul>
         </nav>
     </header>
@@ -24,12 +24,25 @@
         <section class="aboutme">
             <h2 class="aboutme__title">Sobre mi</h2>
             <article class="aboutme__container">
-                <p class="aboutme__container--text">Soy un estudiante apasionado por el desarrollo de software. 
-                    Actualmente estoy aprendiendo HTML y CSS para crear paginas web.</p>
-                <p class="aboutme__container--text">Me gusta resolver problemas y aprender cosas nuevas. Mi objetivo es 
-                    convertirme en un desarrollador de software profesional.</p>
-                <img class="aboutme__container--image" src="./img/imagen-representativa.webp" alt="">
-                
+                <div class="aboutme__text-content">
+                    <p class="aboutme__container--text">
+                        Soy un estudiante apasionado por el desarrollo web, enfocado en crear paginas web atractivas y funcionales.
+                    </p>
+                    <p class="aboutme__container--text">
+                        Mi viaje en el desarrollo comenzo con python luego con HTML y CSS, y cada dia me esfuerzo por mejorar mis habilidades y aprender nuevas tecnologias.
+                    </p>
+                    <p class="aboutme__container--text">
+                        Me destaco por mi capacidad de:
+                    </p>
+                    <ul class="aboutme__list">
+                        <li>Crear paginas web</li>
+                        <li>Trabajar en equipo de manera efectiva</li>
+                        <li>Aprender nuevas tecnologias rapidamente</li>
+                    </ul>
+                </div>
+                <div class="aboutme__images">
+                    <img class="aboutme__container--image" src="./img/programando-noche.jpg" alt="Programando en la noche">
+                </div>
             </article>
         </section>
     </main>
@@ -37,24 +50,29 @@
     <footer id="contact" class="footer">
         <div class="footer__containers">
             <div class="footer__container">
-                <h3 class="footer__navigation--title">Contacto</h3>
+                <h3 class="footer__navigation--title">Desarrollo Web</h3>
+                <div class="footer__content">
+                    <p class="footer__text">Creacion de sitios web modernos y responsivos utilizando las mejores practicas de HTML y CSS.</p>
+                </div>
+            </div>
+            <div class="footer__container">
+                <h3 class="footer__navigation--title">Contacto Directo</h3>
                 <nav class="footer__navigation">
-
-                    <a class="footer__navigation--links" href="#">📧 Juancamilo1998@gmaill.com</a>
-                    <a class="footer__navigation--links" href="#">📞 +57 3845679004</a>
+                    <a class="footer__navigation--links" href="mailto:Juancamilo1998@gmail.com">📧 Juancamilo1998@gmail.com</a>
+                    <a class="footer__navigation--links" href="tel:+573845679004">📞 WhatsApp</a>
                 </nav>
             </div>
             <div class="footer__container">
-                <h3 class="footer__navigation--title">Redes Sociales</h3>
+                <h3 class="footer__navigation--title">Sigueme</h3>
                 <nav class="footer__navigation">
-                    <a class="footer__navigation--links" href="https://www.facebook.com/" target="_blank">Facebook</a>
-                    <a class="footer__navigation--links" href="https://www.instagram.com/" target="_blank">Instagram</a>
-                    <a class="footer__navigation--links" href="https://www.tiktok.com/en/" target="_blank">Tiktok</a>
+                    <a class="footer__navigation--links" href="https://www.facebook.com/" target="_blank">📘 Facebook</a>
+                    <a class="footer__navigation--links" href="https://www.instagram.com/" target="_blank">📸 Instagram</a>
                 </nav>
             </div>
         </div>
-        <p class="footer__text">Todos los derechos reservados</p>
-
+        <div class="footer__bottom">
+            <p class="footer__text">Desarrollado por Juan Camilo 💻</p>
+        </div>
     </footer>
 </body>
 </html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi sitio web personal</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Mi sitio web personal</h1>
+        <nav class="header__navigation">
+            <ul class="header__list">
+                <li> <a class="header__navigation--link" href="./index.html">Inicio</a> </li>
+                <li> <a class="header__navigation--link" href="./aboutme.html">Sobre Mi</a> </li>
+                <li> <a class="header__navigation--link" href="./projects.html">Proyectos</a> </li>
+                <li> <a class="header__navigation--link" href="./contact.html">Contacto</a> </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact">
+            <h2 class="contact__title">Contacto</h2>
+            <div class="contact__container">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">Mi propuesta de valor</h3>
+                    <div class="contact__features">
+                        <div class="contact__feature">
+                            <p class="contact__feature-text">Diseño soluciones web unicas y atractivas para cada proyecto</p>
+                        </div>
+                        <div class="contact__feature">
+                            <p class="contact__feature-text">Desarrollo codigo limpio y optimizado para mejor rendimiento</p>
+                        </div>
+                        <div class="contact__feature">
+                            <p class="contact__feature-text">Dedicacion total a cada proyecto y comunicacion constante</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact__form">
+                    <h3 class="contact__subtitle">Enviame un mensaje</h3>
+                    <div class="contact__form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" class="contact__input" 
+                            placeholder="Ej: Juan Perez" required>
+                    </div>
+                    <div class="contact__form-group">
+                        <label for="email" class="contact__label">Email:</label>
+                        <input type="email" id="email" name="email" class="contact__input" 
+                            placeholder="ejemplo@correo.com" required>
+                    </div>
+                    <div class="contact__form-group">
+                        <label for="subject" class="contact__label">Asunto:</label>
+                        <input type="text" id="subject" name="subject" class="contact__input" 
+                            placeholder="Ej: Propuesta de proyecto" required>
+                    </div>
+                    <div class="contact__form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" class="contact__textarea" 
+                            placeholder="Escribe aqui tu mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="contact__button">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="footer">
+        <div class="footer__containers">
+            <div class="footer__container">
+                <h3 class="footer__navigation--title">Desarrollo Web</h3>
+                <div class="footer__content">
+                    <p class="footer__text">Creacion de sitios web modernos y responsivos utilizando las mejores practicas de HTML y CSS.</p>
+                </div>
+            </div>
+            <div class="footer__container">
+                <h3 class="footer__navigation--title">Contacto Directo</h3>
+                <nav class="footer__navigation">
+                    <a class="footer__navigation--links" href="mailto:Juancamilo1998@gmail.com">📧 Juancamilo1998@gmail.com</a>
+                    <a class="footer__navigation--links" href="tel:+573845679004">📞 WhatsApp</a>
+                </nav>
+            </div>
+            <div class="footer__container">
+                <h3 class="footer__navigation--title">Sigueme</h3>
+                <nav class="footer__navigation">
+                    <a class="footer__navigation--links" href="https://www.facebook.com/" target="_blank">📘 Facebook</a>
+                    <a class="footer__navigation--links" href="https://www.instagram.com/" target="_blank">📸 Instagram</a>
+                </nav>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p class="footer__text">Desarrollado por Juan Camilo 💻</p>
+        </div>
+    </footer>
+</body>
+</html> 
